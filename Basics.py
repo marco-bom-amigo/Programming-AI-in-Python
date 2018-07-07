@@ -5,7 +5,7 @@ import random
 nome = "Marco A. Bonamichi Jr."
 idade = 30
 pi = 3.1415
-print(nome + " " + str(30))
+print(nome + " " + str(idade))
 print("Valor de pi = %s" % pi)
 print("Valor de pi = %1.2f" % pi)
 
