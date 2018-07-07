@@ -13,7 +13,6 @@ print(min_value)
 
 menor = lista_rand[0]
 maior = lista_rand[0]
-
 for item in lista_rand:
     if item < menor:
         menor = item
