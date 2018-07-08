@@ -1,6 +1,4 @@
-import numpy as np
 import pandas as pd
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -17,3 +15,4 @@ fig, ax = plt.subplots()
 fig.set_size_inches(18, 8)
 plt.plot(data_frame_2["Data"], data_frame_2["Bilheteria"])
 plt.show()
+
