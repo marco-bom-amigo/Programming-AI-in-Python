@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 df_pimas = pd.read_csv("pima-data-norm-city.csv", index_col=0)
