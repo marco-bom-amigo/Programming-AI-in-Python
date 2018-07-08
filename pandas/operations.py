@@ -22,3 +22,31 @@ print(serie_2['b'])
 print(serie_2[serie_2 > 3])
 print(serie_2[['a','c']])
 print(serie_2[1:3])
+
+serie_2[serie_2 > 3] = 40
+print(serie_2)
+
+data_frame_1 = DataFrame( np.arange(16).reshape((4, 4))
+                        , index = ["Brasil", "Peru", "Argentina", "Chile"]
+                        , columns = ["2018", "2017", "2016", "2015"]
+                        )
+print(data_frame_1)
+print(data_frame_1[["2018", "2016"]])
+print(data_frame_1["2018"])
+print(data_frame_1[data_frame_1["2018"] > 8])
+
+print(data_frame_1 > 8)
+print(data_frame_1.loc["Chile"])
+print(data_frame_1.isnull())
+
+serie_1 = Series([0, 1, 2], index=['a', 'b', 'c'])
+serie_2 = Series([3, 4, 5], index=['a', 'c', 'f'])
+print(serie_1)
+print(serie_1 + serie_2)
+
+data_frame_1 = DataFrame(np.arange(4).reshape((2, 2)), columns = list("AB") , index = ["SPO", "RJO"]       )
+data_frame_2 = DataFrame(np.arange(9).reshape((3, 3)), columns = list("ADC"), index = ["RGN", "RJO", "SPO"])
+print(data_frame_2)
+print(data_frame_1)
+print(data_frame_1 + data_frame_2)
+print(data_frame_2.add(data_frame_1, fill_value = 0))
