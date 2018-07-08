@@ -1,4 +1,5 @@
 from pandas import DataFrame
+import pandas as pd
 import numpy as np
 
 linhas = np.array([[1, 2, 3, np.nan],[5, np.nan, 7, 8], [9, 10, 11, 12]])
