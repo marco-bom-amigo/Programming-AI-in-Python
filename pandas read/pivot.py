@@ -1,4 +1,3 @@
-from pandas import Series
 import pandas as pd
 import numpy as np
 
