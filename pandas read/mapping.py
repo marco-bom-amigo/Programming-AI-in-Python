@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 data_frame_1 = pd.DataFrame({"cidade":["Santo André", "Petrópolis", "Belo Horizonte"],"vendas":[1231, 3312, 3212]})
 print(data_frame_1)
